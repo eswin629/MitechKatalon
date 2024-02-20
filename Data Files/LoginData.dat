@@ -5,10 +5,10 @@
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>874ff711-6464-40d3-97fe-d2891e2980cf</dataFileGUID>
+   <dataFileGUID>f60609f6-6fb1-4324-a9f7-15b1e94e977a</dataFileGUID>
    <dataSourceUrl>F:\D\katalon\TestData\TesData\tes.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>true</isInternalPath>
+   <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

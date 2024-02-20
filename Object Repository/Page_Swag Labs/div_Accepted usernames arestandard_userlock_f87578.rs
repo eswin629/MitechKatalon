@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7f88c5f3-08ff-4786-8be4-e50555b2a7b5</webElementGuid>
+      <webElementGuid>1f0fbd7a-23e6-4489-a87c-418d8eee4418</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>login_credentials</value>
-      <webElementGuid>d44da155-e59b-4998-a58a-0b2cfba09e5a</webElementGuid>
+      <webElementGuid>f094d4d0-6267-4ae9-b044-325e55b3bb68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>login_credentials</value>
-      <webElementGuid>30e0a4a1-2522-46d2-a78c-d0d0784fba9e</webElementGuid>
+      <webElementGuid>f296244d-16cf-4842-b263-4967948f7315</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Accepted usernames are:standard_userlocked_out_userproblem_userperformance_glitch_usererror_uservisual_user</value>
-      <webElementGuid>3cf4383b-760a-4ad7-9230-1b3d7e98bcb7</webElementGuid>
+      <webElementGuid>18994806-6083-4b6d-98b4-c57c927f731b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login_credentials&quot;)</value>
-      <webElementGuid>21f71fcc-4fb6-45de-be33-bf33e0b148e1</webElementGuid>
+      <webElementGuid>d2549f94-672f-4146-82f5-976b8b856124</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='login_credentials']</value>
-      <webElementGuid>58e8df15-e19a-4575-851d-23fa23f8b570</webElementGuid>
+      <webElementGuid>5f74fc4a-989f-4831-93ed-454cf18c8868</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[2]/div/div</value>
-      <webElementGuid>af2d5f9f-5def-4b07-9b20-e324226a7a5c</webElementGuid>
+      <webElementGuid>ca88feb8-79d3-4b33-9ddf-0186b08ad77a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::div[10]</value>
-      <webElementGuid>fa71e6a1-de6f-415d-aad8-773c290522f7</webElementGuid>
+      <webElementGuid>a1233006-7cd3-4115-8b82-b78720411a31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='standard_user']/parent::*</value>
-      <webElementGuid>1528b495-8e3e-409a-8c5c-ed90e390412b</webElementGuid>
+      <webElementGuid>be4ed028-218d-4adf-90e1-7a97eae45c9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div</value>
-      <webElementGuid>bc57c5fd-5029-4ca6-b387-3934a5ef79f6</webElementGuid>
+      <webElementGuid>9686d95d-cc9e-4318-89ef-0cb2aacf27af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'login_credentials' and (text() = 'Accepted usernames are:standard_userlocked_out_userproblem_userperformance_glitch_usererror_uservisual_user' or . = 'Accepted usernames are:standard_userlocked_out_userproblem_userperformance_glitch_usererror_uservisual_user')]</value>
-      <webElementGuid>38a4e980-0c73-45b7-b6d4-c1ca5af98196</webElementGuid>
+      <webElementGuid>126d1f55-cb5c-456b-935c-e8a3eeaf5f0b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

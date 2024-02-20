@@ -18,44 +18,39 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 def testData = findTestData('Data Files/LoginData')
-def userName = testData.getObjectValue('Username',1)
-def password = testData.getObjectValue('Password',1)
 
-WebUI.comment(userName)
-WebUI.comment(password)
+def userName = testData.getObjectValue('Username', 1)
 
+def password = testData.getObjectValue('Password', 1)
 
+def productName = testData.getObjectValue('productName', 1)
+
+//WebUI.comment(userName)
+//WebUI.comment(password)
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Accepted usernames arestandard_userlock_f87578'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), 'standard_user')
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), userName)
+//WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'))
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Password for all userssecret_sauce'))
+//WebUI.setText(findTestObject('Object Repository/saucedemo/Page_Swag Labs/input_Swag Labs_password'), password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), password)
+//WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'))
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_1'))
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Checkout'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName'), 'win')
-
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'), 'napit')
-
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode'), '12240')
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Cancel_continue'))
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Finish'))
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Back Home'))
+//WebUI.click(findTestObject('Object Repository/Produk/',[detailProduk: detailProduk ]))
+WebUI.click(findTestObject('Object Repository/Product', [productName: productName]))
+//WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Backpack'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Remove'))
 
 WebUI.closeBrowser()
 
